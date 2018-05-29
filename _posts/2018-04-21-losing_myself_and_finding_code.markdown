@@ -14,8 +14,11 @@ I hit the snooze and slide it back under my pillow, knowing that I won't sleep a
 I stumble to the living room where I've laid out my running clothes the night before. I put them on and down a bottle of water. I have enough time for a run and a shower before logging in to Learn at 5:00. I put my earbuds in and walk out the door. As I start running, Eminem blasts through my headphones, asking
 
 > Look, if you had one shot, one opportunity
+>
 >To seize everything you ever wanted
+> 
 > One moment
+> 
 > Would you capture it or just let it slip?
 
 I think about how I will feel, after all this work, facing my first technical interview for my first job.
@@ -31,17 +34,20 @@ Fast forward two years later, and my career in academia was at an end. Not sure 
 All this comes back to me, as Eminem raps
 
 > All the pain inside amplified by the fact
+> 
 > That I can't get by with my nine to five
+> 
 > And I can't provide the right type of life for my family
+> 
 > 'Cause man ... foodstamps don't buy diapers
 
 I found coding accidentally. I literally just saw an ad for a bootcamp on Facebook and thought to myself, "that's something I haven't thought of yet." I started researching software development and bootcamps until I found Flatiron School and the Bootcamp Prep Course. I eagerly started it, and found myself fascinated by HTML. By the time I started opening up the developer tools in my browser and playing around with different websites, I was in love. I found that code made sense to me. Even if I couldn't fully understand the logic behind a given method, my instincts were generally right, and my code would work. When it didn't work (which was a lot of the time, actually), I loved tweaking it until it wasn't broken anymore. I don't know where my coding journey will take me, but I know that I can't do anything else. This is it for me, not only because I love it, but because this is the one shot I have to give my family a better life. Some opportunities only come once. This is my shot, and I'm taking it.
 
 No doubt about it, learning to code is hard. If anybody else out there reads this and struggles sometimes to get up in the early hours, or push through that lab that has you totally stumped, just remember
 
->                                                                  You can do anything you set your mind to, man
+>                                             You can do anything you set your mind to, man
 >                                         
->                                                                                     Marshall Bruce Mathers III
+>                                                                     Marshall Bruce Mathers III
 
 
 
