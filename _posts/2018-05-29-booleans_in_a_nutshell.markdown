@@ -12,7 +12,7 @@ The same is true for computer programs, except we control the flow. We can set s
 	
 This works because of booleans. Booleans represent either true values, or false values. This is an essential concept to understand, because if we don’t understand how flow control works, we’ll never understand our programs. And if we don’t get to the point where we can take a problem, and think logically through the steps the program needs to take to reach the solution, our lives will be much harder.
 
-The most basic tools we have in our programming arsenal to implement flow control are if, elsif (else if), and else statements, and the three logical operators && (and), || (or), and !(not). We can also utilize case statements, while and until loops, and many others, depending on the conditions we’re dealing with.
+The most basic tools we have in our programming arsenal to implement flow control are ```if```, ```elsif``` (else if), and ```else``` statements, and the three logical operators ```&&``` (and), ```||``` (or), and ```!```(not). We can also utilize case statements, while and until loops, and many others, depending on the conditions we’re dealing with.
 	
 A perfect example of how booleans and conditional operators work is the classic FizzBuzz Problem. **Spoiler alert: the FizzBuzz code is below, so if you want to solve it yourself, stop reading and come back later.**
 
