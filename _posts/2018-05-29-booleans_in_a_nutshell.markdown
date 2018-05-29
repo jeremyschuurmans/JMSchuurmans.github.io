@@ -29,7 +29,7 @@ end
 ```
 
 	
-This is a beautiful example of flow control. It can be read like this: *if it is true that an integer is divisible by three and five, return “FizzBuzz”. Else if the integer is divisible by three, return “Fizz”. Else if the integer is dvisible by 5, return “Buzz”.* (People are often confused about the double-equals in the if statement. Why is ```int % 3 == 0```? The modulo operator (%) divides and returns the remainder, so a divisibility check will need the return value of  ```int % 3``` to equal 0).
+This is a beautiful example of flow control. It can be read like this: *if it is true that an integer is divisible by three and five, return “FizzBuzz”. Else if the integer is divisible by three, return “Fizz”. Else if the integer is divisible by 5, return “Buzz”.* (People are often confused about the double-equals in the if statement. Why is ```int % 3 == 0```? The modulo operator (%) divides and returns the remainder, so a divisibility check will need the return value of  ```int % 3``` to equal 0).
 	
 We need to get this kind of logic wired into our brains, so that we can think like our program thinks. That way, when we sit down to tackle a problem, we can start by what we want our program to do, and work our way back step by step until we have beautiful, elegant, functional code that makes us and our users happy.
 	
