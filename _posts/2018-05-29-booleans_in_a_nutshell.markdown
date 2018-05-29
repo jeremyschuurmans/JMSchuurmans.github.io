@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "BOOLEANS IN A NUTSHELL"
-date:       2018-05-29 04:11:08 +0000
+date:       2018-05-29 00:11:09 -0400
 permalink:  booleans_in_a_nutshell
 ---
 
@@ -11,7 +11,7 @@ Whether we realize it or not, our lives are controlled by certain circumstances.
 The same is true for computer programs, except we control the flow. We can set specific conditions and tell our program to execute specific actions as a result. 
 	
 This works because of booleans. Booleans represent either true values, or false values. This is an essential concept to understand, because if we don’t understand how flow control works, we’ll never understand our programs. And if we don’t get to the point where we can take a problem, and think logically through the steps the program needs to take to reach the solution, our lives will be much harder.
-	
+
 The most basic tools we have in our programming arsenal to implement flow control are if, elsif (else if), and else statements, and the three logical operators && (and), || (or), and !(not). We can also utilize case statements, while and until loops, and many others, depending on the conditions we’re dealing with.
 	
 A perfect example of how booleans and conditional operators work is the classic FizzBuzz Problem. **Spoiler alert: the FizzBuzz code is below, so if you want to solve it yourself, stop reading and come back later.**
