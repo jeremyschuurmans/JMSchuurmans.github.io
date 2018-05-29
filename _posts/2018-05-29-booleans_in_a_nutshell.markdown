@@ -40,4 +40,4 @@ There is so much more that could be said about control structures in Ruby. I hop
 Happy coding!
 
 	
-**Lifehack**: The next time you need a bit of motivation, say, to get our of bed for an early morning coding session, try implementing some flow control in your life. Take a piece of paper and write something like, “if alarm goes off, get out of bed” and put it on your phone. You’d be surprised how motivational it can be. Code making the world a better place once again.
+**Lifehack**: The next time you need a bit of motivation, say, to get out of bed for an early morning coding session, try implementing some flow control in your life. Take a piece of paper and write something like, “if alarm goes off, get out of bed” and put it on your phone. You’d be surprised how motivational it can be. Code improving peoples' lives yet again.
