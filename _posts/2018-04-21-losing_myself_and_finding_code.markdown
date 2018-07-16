@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "LOSING MYSELF, AND FINDING CODE"
+title:      "Refactoring Life"
 date:       2018-04-21 02:26:40 -0400
 permalink:  losing_myself_and_finding_code
 ---
