@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "TooHotToHandel"
-date:       2018-07-22 05:19:03 +0000
+date:       2018-07-22 01:19:04 -0400
 permalink:  toohottohandel
 ---
 
 
 Sometimes in life, you have to pause, take a step back, and appreciate the fact that you have accomplished something worthwhile. For me, today is one of those days. A few months ago, I had no idea what a programming language was. I had never heard of Ruby. I didn't know what a command line was, or what a text editor did ("um ... I guess it edits text?"). Concepts like recursion, iteration, truthy, and falsey were like a foreign language. Data structures like hashes and arrays were simply not a part of my daily life. Well ... that has certainly changed.
 
-![](https://i.imgur.com/5O9emtu.gif?1)
+![](https://i.imgur.com/woj4NLd.gif)
 
 
 Today I built an application that I never would have thought possible only a few months ago. Everybody meet my new baby: TooHotToHandel.
