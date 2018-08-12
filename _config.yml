@@ -1,15 +1,14 @@
 # Site settings
-title: Zen and the Art of Computer Programming
+author: Jeremy Schuurmans
+title: Zen and the Art of Programming
 header-img: img/home-bg.png
 email: jeremyschuurmans@gmail.com
-copyright_name: JMSchuurmans
+copyright_name: Jeremy Schuurmans
 description: > # this means to ignore newlines until "baseurl:"
   Thoughts along the way.
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: JMSchuurmans
 github_username:  JMSchuurmans
-learn_profile: JMSchuurmans
-email_username: jeremyschuurmans@gmail.com
 
 # Build settings
 markdown: kramdown
