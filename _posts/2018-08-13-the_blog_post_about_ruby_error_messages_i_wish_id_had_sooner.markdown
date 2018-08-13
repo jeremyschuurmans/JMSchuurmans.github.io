@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Blog Post About Ruby Error Messages I Wish I'd Had Sooner"
-date:       2018-08-13 19:53:13 +0000
+date:       2018-08-13 15:53:14 -0400
 permalink:  the_blog_post_about_ruby_error_messages_i_wish_id_had_sooner
 ---
 
@@ -144,7 +144,7 @@ errors.rb:2:in `+': no implicit conversion of Integer into String (TypeError)
 
 **How do I fix it?**
 
-Another common TypeError message is `String can't be coerced into Integer`. Basically, all this is telling you is that when Ruby read the line, `puts "one"+`, it expected the value after the + sign to be a string as well, which would have worked (`oneone`), but what it found instead was an integer. Ruby encountered an object that wasn't the type of object it expected it to be. So make sure that for whatever operation you are trying to perform, you are using the proper type of object.
+Basically, all Ruby is telling you here is that when you tried to call `+1`, it expected the value behind the + sign to be an integer as well. Instead, you tried to call `+1` on a string. Ruby encountered an object that wasn't the type of object it expected it to be. So make sure that for whatever operation you are trying to perform, you are using the proper type of object. For this example, it would have to be either `1+1` which would output `2`, or `"one"+"one"`, which would result in `"oneone"`.
 
 ###FUN-FACT
 
