@@ -146,11 +146,11 @@ errors.rb:2:in `+': no implicit conversion of Integer into String (TypeError)
 
 Basically, all Ruby is telling you here is that when you tried to call `+1`, it expected the value behind the + sign to be an integer as well. Instead, you tried to call `+1` on a string. Ruby encountered an object that wasn't the type of object it expected it to be. So make sure that for whatever operation you are trying to perform, you are using the proper type of object. For this example, it would have to be either `1+1` which would output `2`, or `"one"+"one"`, which would result in `"oneone"`.
 
-###FUN-FACT
+### FUN-FACT
 
 You've probably heard that Ruby is a pure object-oriented language, and that everything in Ruby is an object. Would it blow your mind if I pointed out that this holds true for your errors as well? Errors are objects, instances of the Exception class. If you don't find this cool yet, just wait. Object-orientation is awesome. Suspend disbelief until you get there, and you'll see what I mean.
 
-###RESOURCES
+### RESOURCES
 
 For more information on the Exception class, and Ruby errors, see [the Ruby docs](https://ruby-doc.org/core-2.2.0/Exception.html)
 
