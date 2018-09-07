@@ -1,11 +1,11 @@
 # Site settings
 author: Jeremy Schuurmans
-title: Zen and the Art of Programming
+title: Hi! I'm Jeremy.
 header-img: img/home-bg.png
-email: jeremyschuurmans@gmail.com
+email: jeremy.shurminz@gmail.com
 copyright_name: Jeremy Schuurmans
 description: > # this means to ignore newlines until "baseurl:"
-  Thoughts along the way.
+  And this is my blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: JMSchuurmans
 github_username:  JMSchuurmans
