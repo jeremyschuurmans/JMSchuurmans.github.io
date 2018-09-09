@@ -1,13 +1,13 @@
 ---
 layout: post
 title:      "Ruby Method Spotlight: Slice"
-date:       2018-08-25 02:28:18 +0000
+date:       2018-08-24 22:28:19 -0400
 permalink:  ruby_method_spotlight_slice
 ---
 
 
 
-![sliced orange](https://i.imgur.com/73oChdb.png?1)
+![sliced orange](https://i.imgur.com/r0i4Gu5.png)
 
 
 
