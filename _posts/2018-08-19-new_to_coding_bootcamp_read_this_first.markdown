@@ -1,14 +1,14 @@
 ---
 layout: post
-title:      "New to Coding Bootcamp? Read This First."
+title:      "Read This Before Starting a Bootcamp."
 date:       2018-08-19 20:12:51 -0400
 permalink:  new_to_coding_bootcamp_read_this_first
 ---
 
-![](https://i.imgur.com/N9LepDQ.jpg?1)
+![laptop on desk with coffee and headphones](https://i.imgur.com/N9LepDQ.jpg?1)
 
 
-If you have decided to learn to code, I need to say one thing to you right off the bat, and that is, "Welcome!" Learning to program has truly been one of the best decisions I've made in my life. For one thing, computers are fun. You get to play with things like terminals and text editors, learning more in the process about how these machines we take for granted actually work. The first week you spend using your terminal will teach you more about computing than most people who own a computer will ever know. For another thing, programming is immensely rewarding. You get to think abstractly and solve puzzles while building something that is actually useful and beautiful. Not to mention the fact that you can get paid to do this. Because, after all, as awesome as programming is, I haven't yet met a single person who enrolls in a bootcamp to learn a new hobby. We're doing this to get a job.
+Thinking about learning to code? If you're on the fence, the first thing I'll say to you is go for it. It has truly been one of the best decisions I've made in my life. For one thing, computers are fun. You get to play with things like terminals and text editors, learning more in the process about how these machines we take for granted actually work. The first week you spend using your terminal will teach you more about computing than most people who own a computer will ever know. For another thing, programming is immensely rewarding. You get to think abstractly and solve puzzles while building something that is actually useful and beautiful. Not to mention the fact that you can get paid to do this. Because, after all, as awesome as programming is, I haven't yet met a single person who enrolls in a bootcamp to learn a new hobby. We're doing this to get a job.
 
 If you are just starting out, this post is for you. I've been in a bootcamp for about four months. I made a lot of mistakes in the beginning that made the first couple of months harder than they needed to be, and now that I'm past the halfway point, I see people who are where I was four months ago making the same mistakes. So I'm writing this for them, and for you, dear code newbie, with the hope that you will be spared some of the frustration I experienced.
 
