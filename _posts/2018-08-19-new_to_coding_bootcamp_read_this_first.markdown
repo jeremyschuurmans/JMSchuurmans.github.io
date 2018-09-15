@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Read This Before Starting a Bootcamp."
+title:      "Read This Before Starting a Bootcamp"
 date:       2018-08-19 20:12:51 -0400
 permalink:  new_to_coding_bootcamp_read_this_first
 ---
