@@ -1,0 +1,148 @@
+body {
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  background-image: url('/images/background.png');
+}
+
+p {font-size: 16px;}
+
+.margin {margin-bottom: 45px;}
+
+.bg-1 {
+  color: #ffffff;
+}
+
+.bg-1 h3 {
+  padding-top: 40px;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 50px;
+}
+
+.bg-1 img {
+  border: 10px solid black;
+}
+
+.bg-1 h4 {
+  font-size: 25px;
+}
+
+.bg-1 a i {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 30px;
+  margin: 10px;
+  padding-top: 25px;
+  padding-bottom: 75px;
+}
+
+.bg-1 a i:hover {
+  color: #00ffff;
+  font-size: 40px;
+}
+
+.bg-2 {
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
+  padding: 50px;
+}
+
+.bg-2 p {
+  column-count: 3;
+  column-gap: 30px;
+  text-align: left;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.bg-2 a {
+  color: #ffffff;
+}
+
+.bg-2 a:hover {
+  color: #00ffff;
+}
+
+.bg-2 .resume {
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.bg-2 .resume:hover {
+  color: #00ffff;
+  border: 3px solid #00ffff;
+}
+
+.bg-3 {
+  background-color: #ffffff; /* White */
+  color: #555555;
+  padding: 50px;
+}
+
+.bg-3 .stack-toggle {
+  text-decoration: none;
+  color: #555555;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.bg-3 .stack-toggle:hover {
+  color: #00ffff;
+  border: 3px solid #00ffff;
+}
+
+.modal-header {
+  background-color: #474e5d;
+  color: #ffffff;
+}
+
+.modal-footer {
+  background-color: #474e5d;
+  color: #ffffff;
+}
+
+.modal-footer .stack-toggle-close {
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.modal-footer .stack-toggle-close:hover {
+  color: #00ffff;
+  border: 3px solid #00ffff;
+}
+
+.stack {
+  list-style: none;
+  column-count: 2;
+}
+
+.bg-3 img {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.bg-4 p{
+  color: #00ffff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.glyphicon-heart {
+  color: red;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+@media only screen and (max-width: 766px) {
+  .bg-2 p {
+    column-count: 1;
+  }
+}
