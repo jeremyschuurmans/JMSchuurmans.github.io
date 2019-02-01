@@ -1,36 +1,94 @@
----
-layout: page
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hi! I'm Jeremy.</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-16x16.png">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    {{ post.excerpt }}
-    <p class="post-meta">Posted by {% if site.author %}{{ site.author }}{% else %}{{ site.github_username }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+</head>
+<body>
+
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin" id="first">I'm Jeremy Schuurmans</h3>
+  <img src="/images/me.png" class="img-responsive img-rounded margin" style="display:inline" alt="Insert image here" width="350" height="350">
+  <h4>A Full Stack Web Developer</h4>
+  <a href="https://www.github.com/jmschuurmans" target="_blank" rel="noopener"><i class="fab fa-github"></i></a><a href="https://www.linkedin.com/in/jeremy-schuurmans" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a><a href="https://www.twitter.com/jmschuurmans" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a><a href="https://www.dev.to/jmschuurmans" target="_blank" rel="noopener"><i class="fab fa-dev"></i></a>
 </div>
-<hr>
-{% endfor %}
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">My Story</h3>
+  <p>I have always loved building things by hand. Taking raw ingredients and combining them into something spectacular, or even taking something already created and making it better than it was, has always made me happy.
+  This passion first led me into the restaurant industry. <br></br>Starting out as a fry cook in a dive bar, I worked my way through culinary school, and into the fine-dining scene. I was fueled by the rush of combining individual
+  elements into an experience that brought people happiness. I lived for the smile that appeared on customers' faces as they had that first taste of something I made. <br></br>Now, instead of combining ingredients into delicious food,
+  I've taken that love into tech as I combine lines of code into beautiful applications and engaging user experiences. <br></br> If you'd like to work together, please <a href="mailto: schuurm@ns.codes"><strong>reach out!</strong></a></p>
+  <a href="/documents/jeremy-schuurmans.pdf" download" class="resume">Download Resume</a>
+</div>
+
+<div class="container-fluid bg-3 text-center">
+  <h3>Recent Projects</h3><br>
+  <div class="margin">
+    <a href="#" data-toggle="modal" data-target="#myStack" class="stack-toggle">My Stack</a>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <p><strong>Vino</strong> - a social wine journal built with Rails. Users can journal wines they love, and follow other users, viewing and commenting on each other's wines. It utilizes bcrypt and Omniauth Facebook
+      for authentication. Styled with Bootstrap and custom HTML and CSS.</p>
+      <a href="https://www.github.com/jmschuurmans/vino" target="_blank" rel="noopener">View Code</a> | <a href="http://vino-journal.herokuapp.com" target="_blank" rel="noopener">Live App</a>
+      <p>Demo username: <i>hpotter@hogwarts.edu</i>, password: <i>quidditch</i></p>
+      <img src="/images/vino-screenshot.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p><strong>Nice One, Dad</strong> - dad jokes at the click of a button! This one page app built from scratch with HTML and CSS utilizes AJAX to connect to the "I Can Haz Dad Joke" public API, delivering for your amusement <br> a random hilarious pun.</p>
+      <a href="https://www.github.com/jmschuurmans/nice-one-dad" target="_blank" rel="noopener">View Code</a> | <a href="http://nice-one-dad.surge.sh" target="_blank" rel="noopener">Live App</a>
+      <p><br></p>
+      <img src="/images/nice-one-dad-screenshot.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p><br></p>
+      <p><br>Great things are coming soon ... <br></br><br></p><br>
+      <img src="/images/watch-this-space.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid bg-4 text-center">
+  <p>MADE WITH <span class="glyphicon glyphicon-heart"></span> BY ME IN PORTLAND, OREGON</p>
+</footer>
+
+<div id="myStack" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">My Stack</h4>
+      </div>
+      <div class="modal-body">
+        <ul class="stack">
+          <li>Ruby</li>
+          <li>Rails</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+          <li>SQL</li>
+          <li>Sinatra</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="#" data-dismiss="modal" class="stack-toggle-close">Close</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
