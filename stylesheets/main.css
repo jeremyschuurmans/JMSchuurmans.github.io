@@ -1,7 +1,6 @@
 body {
   font: 20px Montserrat, sans-serif;
   line-height: 1.8;
-  background-image: url('/images/background.png');
 }
 
 p {font-size: 16px;}
@@ -10,7 +9,10 @@ p {font-size: 16px;}
 
 .bg-1 {
   color: #ffffff;
+  background-color: #5d7a73;
+  background-image: linear-gradient(to bottom right, #3e2a21, #574e4b, #5d7a73, #b4c4bd, #cacdca);
 }
+
 
 .bg-1 h3 {
   padding-top: 40px;
@@ -41,7 +43,7 @@ p {font-size: 16px;}
 }
 
 .bg-2 {
-  background-color: #474e5d; /* Dark Blue */
+  background-color: #474e5d;
   color: #ffffff;
   padding: 50px;
 }
@@ -77,7 +79,7 @@ p {font-size: 16px;}
 }
 
 .bg-3 {
-  background-color: #ffffff; /* White */
+  background-color: #ffffff;
   color: #555555;
   padding: 50px;
 }
@@ -92,6 +94,11 @@ p {font-size: 16px;}
 .bg-3 .stack-toggle:hover {
   color: #00ffff;
   border: 3px solid #00ffff;
+}
+
+.bg-4 {
+  background-color: #5d7a73;
+  background-image: linear-gradient(to bottom right, #3e2a21, #574e4b, #5d7a73);
 }
 
 .modal-header {
