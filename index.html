@@ -1,102 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Hi! I'm Jeremy.</title>
+  <title>Jeremy</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-16x16.png">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+  <table width="576">
+    <tbody>
+      <tr>
+        <td align="left" valign="top">
+          <section class="contact">
+            <p>
+              <strong>Jeremy Schuurmans</strong>,
+              <a href="mailto:schuurm@ns.codes">schuurm@ns.codes</a>
+              <br>
+              Portland, OR
+            </p>
+          </td>
+          <td align="left" valign="top">
+          <img src="images/me.png" width="120">
 
-  <!-- <div class="bg-image">
-    <div class="container-fluid bg-1 text-center">
-      <h3 class="margin" id="first">I'm Jeremy Schuurmans</h3>
-      <img src="/images/me.png" class="img-responsive img-rounded margin" style="display:inline" alt="Jeremy Schuurmans headshot" width="350" height="350">
-      <h4>A Full Stack Web Developer</h4>
-        <a href="https://www.github.com/jmschuurmans" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/jeremy-schuurmans" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.twitter.com/jmschuurmans" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.dev.to/jmschuurmans" target="_blank" rel="noopener"><i class="fab fa-dev"></i></a>
-    </div>
-  </div>
 
-  <div class="container-fluid bg-2 text-center">
-    <h3 class="margin">My Story</h3>
-    <p>I have always loved building things by hand. Taking raw ingredients and combining them into something spectacular, or even taking something already created and making it better than it was, has always made me happy.
-    This passion first led me into the restaurant industry. <br style = "line-height:3;">Starting out as a fry cook in a dive bar, I worked my way through culinary school, and into the fine-dining scene. I was fueled by the rush of combining individual
-    elements into an experience that brought people happiness. I lived for the smile that appeared on customers' faces as they had that first taste of something I made. <br style = "line-height:3;">Now, instead of combining ingredients into delicious food,
-    I've taken that love into tech as I combine lines of code into beautiful applications and engaging user experiences. <br style = "line-height:3;"> If you'd like to work together, please <a href="mailto:schuurm@ns.codes"><strong>reach out!</strong></a></p>
-    <a href="/documents/jeremy-schuurmans.pdf" download class="resume">Download Resume</a>
-  </div>
 
-  <div class="container-fluid bg-3 text-center">
-    <h3>Recent Projects</h3><br>
-    <div class="margin">
-      <a href="#" data-toggle="modal" data-target="#myStack" class="stack-toggle">My Stack</a>
-    </div>
-    <div class="row">
-      <div class="col-sm-4">
-        <p><strong>Vino</strong> - a social wine journal built with Rails. Users can journal wines they love, and follow other users, viewing and commenting on each other's wines. It utilizes bcrypt and Omniauth Facebook
-        for authentication. Styled with Bootstrap and custom HTML and CSS.</p>
-        <a href="https://www.github.com/jmschuurmans/vino" target="_blank" rel="noopener">View Code</a> | <a href="http://vino-journal.herokuapp.com" target="_blank" rel="noopener">Live App</a>
-        <p>Demo username: <i>hpotter@hogwarts.edu</i>, password: <i>quidditch</i></p>
-        <img src="/images/vino-screenshot.png" class="img-responsive margin" style="width:100%" alt="Vino Screenshot">
-      </div>
-      <div class="col-sm-4">
-        <p><strong>Nice One, Dad</strong> - dad jokes at the click of a button! This one page app built from scratch with HTML and CSS utilizes AJAX to connect to the "I Can Haz Dad Joke" public API, delivering for your amusement <br> a random hilarious pun.</p>
-        <a href="https://www.github.com/jmschuurmans/nice-one-dad" target="_blank" rel="noopener">View Code</a> | <a href="http://nice-one-dad.surge.sh" target="_blank" rel="noopener">Live App</a>
-        <p><br></p>
-        <img src="/images/nice-one-dad-screenshot.png" class="img-responsive margin" style="width:100%" alt="Nice One, Dad Screenshot">
-      </div>
-      <div class="col-sm-4">
-        <p><strong>Too Hot To Handel</strong> - classical music news and reviews for the command line! This CLI application, written in Ruby, scrapes the website of a popular classical music magazine and displays articles in your terminal. <br><br></p>
-        <a href="https://www.github.com/jmschuurmans/too_hot_to_handel" target="_blank" rel="noopener">View Code</a>
-        <p><br></p>
-        <img src="/images/too-hot-to-handel.png" class="img-responsive margin" style="width:100%" alt="Watch This Space">
-      </div>
-    </div>
-  </div>
-
-  <footer class="container-fluid bg-4 text-center">
-    <p>MADE WITH <span class="glyphicon glyphicon-heart"></span> BY ME IN PORTLAND, OREGON</p>
-  </footer>
-
-  <div id="myStack" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">My Stack</h4>
-        </div>
-        <div class="modal-body">
-          <ul class="stack">
-            <li>Ruby</li>
-            <li>Rails</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>SQL</li>
-            <li>Sinatra</li>
-          </ul>
-        </div>
-        <div class="modal-footer">
-          <a href="#" data-dismiss="modal" class="stack-toggle-close">Close</a>
-        </div>
-      </div>
-
-    </div>
-  </div> -->
-<h1 style="margin-left: 25%; margin-right: 25%">Down for maintenance. Please check back soon.</h1>
-<p style="margin-left: 25%; margin-right: 25%"> - Jeremy </p>
-<br></br>
-<iframe style="margin-left: 33%" width="560" height="315" src="https://www.youtube.com/embed/bzvUyu3zOmE?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
