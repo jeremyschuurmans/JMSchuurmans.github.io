@@ -8,3 +8,8 @@ body {
   margin-right: 10px;
   color: black;
 }
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
