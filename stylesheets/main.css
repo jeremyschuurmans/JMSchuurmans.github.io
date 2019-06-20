@@ -58,8 +58,8 @@ div.talks-list ul, div.podcasts-list ul {
 
 @media only screen
   and (min-device-width: 320px)
-  and (max-device-width: 414px) {
+  and (max-device-width: 415px) {
     table {
-      width: 399px;
+      width: 358px;
     }
 }
