@@ -33,7 +33,7 @@ table {
   width: 576px;
 }
 
-table.center {
+.center {
   margin-left: auto;
   margin-right: auto;
 }
@@ -60,6 +60,7 @@ div.talks-list ul, div.podcasts-list ul {
   and (min-device-width: 320px)
   and (max-device-width: 414px) {
     table {
-      width: 400px;
-  }
+      width: 399px;
+    }
+
 }
