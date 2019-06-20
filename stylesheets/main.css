@@ -1,17 +1,53 @@
 body {
   font-family: 'Muli', sans-serif;
   line-height: 1.5;
+  text-align: center;
 }
 
-.contact .social-icons {
+.social-icons {
   font-size: 30px;
   margin-right: 10px;
   color: black;
 }
 
+td#contact-info {
+  text-align: left;
+  vertical-align: top;
+}
+
+td#me {
+  text-align: right;
+  vertical-align: top;
+}
+
+img {
+  width: 150px;
+}
+
+h1 {
+  font-size: 12px;
+}
+
 img:hover {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+}
+
+table {
+  width: 576px;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.links {
+  text-align: center;
+}
+
+tbody {
+  text-align: left;
 }
 
 @media only screen
