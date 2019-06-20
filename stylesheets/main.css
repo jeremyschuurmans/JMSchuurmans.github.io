@@ -24,10 +24,6 @@ img {
   width: 150px;
 }
 
-h1 {
-  font-size: 12px;
-}
-
 img:hover {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
@@ -48,6 +44,16 @@ table.center {
 
 tbody {
   text-align: left;
+}
+
+div#about, div#projects, div#recent-writing, div#talks, div#podcasts {
+  font-size: 18.72px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+div.talks-list ul, div.podcasts-list ul {
+  list-style: none;
 }
 
 @media only screen
