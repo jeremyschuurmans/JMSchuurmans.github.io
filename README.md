@@ -1,1 +1,1 @@
-# This is my personal portfolio website. It was built by hand and with love in HTML and CSS.
+# This is my personal portfolio website. It was built by hand and with love in HTML and CSS. It is in desparate need of a refactor into better HTML, which I hope to get around to doing one of these days.
