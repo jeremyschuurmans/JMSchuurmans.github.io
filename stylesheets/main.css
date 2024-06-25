@@ -24,11 +24,6 @@ img {
   width: 150px;
 }
 
-img:hover {
-  -webkit-transform: rotate(1.0turn);
-  transform: rotate(1.0turn);
-}
-
 table {
   width: 576px;
 }
