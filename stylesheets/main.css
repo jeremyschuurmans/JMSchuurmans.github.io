@@ -20,13 +20,8 @@ td#me {
   vertical-align: top;
 }
 
-img {
+img#headshot {
   width: 150px;
-}
-
-img:hover {
-  -webkit-transform: rotate(1.0turn);
-  transform: rotate(1.0turn);
 }
 
 table {
